@@ -1,6 +1,6 @@
 import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
-import { CiLinkedin } from "react-icons/ci";
+import { CiInstagram, CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 
 const Contact = () => {
@@ -19,15 +19,11 @@ const Contact = () => {
       <ul className="text-sm md:text-xl">
         <li className="flex gap-1 items-center">
           <MdOutlineEmail size={20} />
-          <a href="mailto:karunaoatidar0206@gmail.com" target="_blank">  karunapatidar0206@gmail.com</a>
+          <a href="mailto:compli.tech.01@gmail.com" target="_blank"> compli.tech.01@gmail.com</a>
         </li>
         <li className="flex gap-1 items-center">
-          <CiLinkedin />
-          <a href ="https://www.linkedin.com/in/karuna-patidar-3b66a6236/" target="_blank">linkedin.com/Karuna Patidar</a>
-        </li>
-        <li className="flex gap-1 items-center">
-          <FaGithub />
-          <a href="https://github.com/Karuna-patidar" target="_blank">github.com/Karuna-patidar</a>
+          <CiInstagram />
+          <a href ="https://www.instagram.com/compli__tech?igsh=Zzh6YjRjd2xwbWht" target="_blank">Instagram : Compli__Tech</a>
         </li>
       </ul>
     </div>

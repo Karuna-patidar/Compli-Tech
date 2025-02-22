@@ -7,12 +7,7 @@ const ProjectCard = ({ title, main, image , link }) => {
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
         {title}
       </h3>
-      <p className="px-4 text-sm md:text-md leading-tight py-2">{main}</p>
-        <button className="mt-2 w-32 text-white py-2 px-2 text-sm  hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-        <a href={link} target="_blank" >
-              Source Code
-         </a>
-        </button>
+      <p className="px-4 text-base md:text-md leading-tight py-2">{main}</p>
     </div>
   );
 };
