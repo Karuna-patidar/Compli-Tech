@@ -6,7 +6,7 @@ const Navbar = () => {
     const [showMenu, setShowmenu] = useState(true);
   return (
     <div className="flex flex-wrap justify-between md:items-center text-white p-2 bg-slate-900">
-       <span className="text-3xl px-8 font-bold">Protfolio</span>
+       <span className="text-3xl px-8 font-bold">Protfolio </span>
        <ul className={`${ menu ? "block" : "hidden" } mx-10 p-y2 mt-4 font-semibold  p-2 rounded-xl bg-opacity-30 md:border-none text-center md:bg-transparent md:static md:mx-0 md:flex gap-6`}>
        <a href="#home"><li  className="text-md transition-all duration-300 p-1 md:p-0">Home</li></a>
        <a href ="#about"> <li  className="text-md transition-all duration-300 p-1 md:p-0">About</li> </a>
