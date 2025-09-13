@@ -1,7 +1,7 @@
-import React from "react";
+
 import { MdOutlineEmail } from "react-icons/md";
-import { CiInstagram, CiLinkedin } from "react-icons/ci";
-import { FaGithub } from "react-icons/fa";
+import { CiInstagram } from "react-icons/ci";
+
 
 const Contact = () => {
   return (
